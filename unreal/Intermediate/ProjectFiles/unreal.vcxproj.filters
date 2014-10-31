@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\unreal.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{7C4A1605-AB65-475A-93E5-E191AD58DBCB}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\unreal.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\unrealEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{D8BBA67A-7834-4E08-8197-F49F01F74C56}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\unreal">
+			<UniqueIdentifier>{1EE47120-315B-45F6-A3FA-9E6CA03BE6C6}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\unreal\unreal.Build.cs">
+			<Filter>Source\unreal</Filter>
+		</None >
+		<Filter Include="Source\unreal\Private">
+			<UniqueIdentifier>{348F7FBB-4283-4EFA-940C-A632F4EEC89E}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\unreal\Private\unreal.cpp">
+			<Filter>Source\unreal\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\unreal\Private\unrealBlock.cpp">
+			<Filter>Source\unreal\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\unreal\Private\unrealBlockGrid.cpp">
+			<Filter>Source\unreal\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\unreal\Private\unrealGameMode.cpp">
+			<Filter>Source\unreal\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\unreal\Private\unrealPlayerController.cpp">
+			<Filter>Source\unreal\Private</Filter>
+		</ClCompile >
+		<Filter Include="Source\unreal\Public">
+			<UniqueIdentifier>{D91C0117-A866-496B-BAF3-AF3CCBD19088}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Source\unreal\Public\unreal.h">
+			<Filter>Source\unreal\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\unreal\Public\unrealBlock.h">
+			<Filter>Source\unreal\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\unreal\Public\unrealBlockGrid.h">
+			<Filter>Source\unreal\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\unreal\Public\unrealGameMode.h">
+			<Filter>Source\unreal\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\unreal\Public\unrealPlayerController.h">
+			<Filter>Source\unreal\Public</Filter>
+		</ClInclude >
+		<Filter Include="Source\unreal\Resources">
+			<UniqueIdentifier>{7EFF2FFE-27F9-4C28-AD75-1376F4602734}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source\unreal\Resources\Windows">
+			<UniqueIdentifier>{9E30A081-4AA6-40F8-861D-0B851BFABCDF}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\unreal\Resources\Windows\unreal.ico">
+			<Filter>Source\unreal\Resources\Windows</Filter>
+		</None >
+		<ResourceCompile Include="..\..\Source\unreal\Resources\Windows\unreal.rc">
+			<Filter>Source\unreal\Resources\Windows</Filter>
+		</ResourceCompile >
+	</ItemGroup>
+</Project>
